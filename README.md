@@ -12,3 +12,5 @@ Developed using HTML, CSS, and Javascript.
 # Frameworks used
 Front-end development handled entirely through Visual Studio Code.
 
+# Game site link
+You can try the game here https://ahmedaslaibi.github.io./
