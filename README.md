@@ -13,4 +13,4 @@ Developed using HTML, CSS, and Javascript.
 Front-end development handled entirely through Visual Studio Code.
 
 # Game site link
-You can try the game here https://ahmedaslaibi.github.io./
+You can try the game here https://ahmedaslaibi.github.io./tic-tac-toe
