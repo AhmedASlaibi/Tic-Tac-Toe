@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+body {
+    text-align: center;
+    align-items: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.cell {
+    font-size: 80px;
+    text-align: center justify;
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    box-shadow: 0 0 0 1px;
+    cursor: pointer;
+}
+
+p {
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.gameBoard {
+    display:flex;
+    flex-wrap: wrap;
+    width: 400px;
+    justify-content: center;
+    margin: auto;
+}
+
+.restartGame {
+    margin-top: 20px;
+}
+
+.statusPrompt {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    margin-top: 20px;
+}

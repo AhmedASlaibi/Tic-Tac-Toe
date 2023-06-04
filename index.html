@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1>TIC TAC TOE</h1>
+        <p> Start the game by directly clicking on one of the boxes<br><br>First Player starts as  
+            <b>Player X</b><br>And<br>Second  
+            Player as <b>Player 0</b> 
+        </p>
+        <!-- I made a div containing each cell of what I later implemented to be a box part of a CSS grid in the form of a flexbox.  -->
+        <!-- I also attributed 'data-cell-index' to each cell so that i can store it as number within an index so that we can tell which cell has been clicked. -->
+        <div class="gameBoard">
+            <div class="cell" data-cell-index="0"></div>
+            <div class="cell" data-cell-index="1"></div>
+            <div class="cell" data-cell-index="2"></div>
+            <div class="cell" data-cell-index="3"></div>
+            <div class="cell" data-cell-index="4"></div>
+            <div class="cell" data-cell-index="5"></div>
+            <div class="cell" data-cell-index="6"></div>
+            <div class="cell" data-cell-index="7"></div>
+            <div class="cell" data-cell-index="8"></div>
+        </div>
+        <!-- The <h2> here will state the last status the game is in -->
+        <h2 class="statusPrompt"></h2>
+        <!-- The restart button will be assigned with a function to clean up any inputted data and reset the app. -->
+        <button class="restartGame">Restart</button>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
